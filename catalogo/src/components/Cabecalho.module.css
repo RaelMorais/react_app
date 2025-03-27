@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 150px;
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: larger;
+    color: blueviolet; */
+}

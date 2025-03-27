@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
