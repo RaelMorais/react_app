@@ -1,14 +1,18 @@
-.container{
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    height: 150px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: rgb(0, 0, 0);
+    height: 30px; /* Altura fixa */
+    width: 100%; /* Opcional: garante que ocupe toda a largura */
 }
 
+.container span {
+    color: rgb(49, 49, 179);
+}
 
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* font-size: larger;
-    color: blueviolet; */
+.container p {
+    margin: 0; /* Remove margens para evitar deslocamento */
+    color: rgb(255, 255, 255);
+    text-align: center; /* Garante que o texto dentro do p esteja centralizado */
 }

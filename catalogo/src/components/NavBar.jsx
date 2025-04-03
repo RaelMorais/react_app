@@ -7,7 +7,8 @@ export function NavBar(){
             <ul>
                 <li>Home</li>
                 <li>Filmes</li>
-                <li>Perfil</li>
+                <li>Tv</li>
+                <li>Series</li>
             </ul>
         </nav>
     )
