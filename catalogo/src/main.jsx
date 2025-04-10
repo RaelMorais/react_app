@@ -10,8 +10,4 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
-createApp(document.getElementById('root')).render(
-  <StrictMode>
-    <MyApp />
-  </StrictMode>,
-)
+

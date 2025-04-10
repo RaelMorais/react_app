@@ -1,0 +1,83 @@
+.modalback {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Garante que o modal fique sobre outros elementos */
+}
+
+.modalContainer {
+    position: relative; /* Necessário para que a imagem e o texto se posicionem em relação a ela */
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.modalHeader h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.modalHeader button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+}
+
+.modalContent {
+    position: relative; /* Define o contexto para o texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha o conteúdo verticalmente */
+    align-items: center; /* Alinha o conteúdo horizontalmente */
+    padding: 0; /* Remove o padding para a imagem ocupar o máximo de espaço possível */
+}
+
+.modalContent img {
+    width: 100%; /* A imagem ocupa 100% da largura do modal */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; 
+    background-color: rgba(0, 0, 0, 0.9);/* Faz com que a imagem cubra o espaço sem distorcer */
+}
+
+
+
+.modalContent ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    padding: 0;
+    z-index: 10;
+}
+
+.modalContent li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}

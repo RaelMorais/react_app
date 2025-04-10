@@ -1,6 +1,4 @@
 import estilos from './NavBar.module.css';
-
-
 export function NavBar(){
     return(
         <nav className={estilos.container}>
