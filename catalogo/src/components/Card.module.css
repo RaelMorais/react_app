@@ -9,6 +9,9 @@
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Garante que a imagem não vaze do container */
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 figure {

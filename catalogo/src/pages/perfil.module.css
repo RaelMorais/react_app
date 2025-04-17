@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+
+}
+
+h2{
+    text-align: center;
+}
+
+main{
+    background-color: black;
+}
+
+.containerMain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+    height: 700px;
+}
+.perfil {
+    background-color: blueviolet;
+    height: 90%;
+    display: flex;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+
+}

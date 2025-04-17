@@ -1,0 +1,13 @@
+.caixa {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    display: flex;
+    align-items: center;
+    background-color: #ff0000;
+    border-radius: 10px;
+    transition: all 0.5s;
+    user-select: none;
+    cursor: default;
+  }

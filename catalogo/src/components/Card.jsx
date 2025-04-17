@@ -1,19 +1,19 @@
 import estilo from './Card.module.css';
 
-export function Card({ movie, onOpenModal }) {
+export function Card({element, onOpenModal }) {
     return (
         <div className={estilo.container}>
-            <h3>{movie.title}</h3>
+            <h3>{element.title}</h3>
             <img
-                src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
-                onClick={() => onOpenModal(movie)}
+                src={`https://image.tmdb.org/t/p/w500/${element.poster_path}`}
+                onClick={() => onOpenModal(element)}
 
-                alt={movie.title || 'Poster do filme'}
+                alt={element.title || 'Poster do filme'}
                 onError={(e) => (e.target.src = 'https://via.placeholder.com/500x750?text=Imagem+Indisponível')} // Fallback para imagem ausente
             />
-            {/* <p>{movie.overview}</p> */}
-            <p>{movie.release_date}</p>
-            <p>{movie.language}</p>
+            {/* <p>{element.overview}</p> */}
+            <p>{element.release_date}</p>
+            <p>{element.language}</p>
         </div>
     );
 }

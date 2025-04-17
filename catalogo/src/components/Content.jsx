@@ -5,7 +5,7 @@ import { Lista } from './Lista';
 export function Content(){
     return(
         <main className={estilos.container}>
-            <h1>Conteudo aqui!</h1>
+            <h1>Novos Filmes</h1>
             <Lista>
                 
             </Lista>
